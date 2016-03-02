@@ -12,7 +12,6 @@ numrot=min(m,n)/2
 lists=[]
 for i in range(numrot):
     l=[]
-    #for j in range((m-2*i)*2+(n-2*i-2)*2):
     for j in range(i+1,n-i):
         l.append(mat[i][j])
     for j in range(1+i,m-i):
