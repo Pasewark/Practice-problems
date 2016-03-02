@@ -20,9 +20,6 @@ int main() {
         list.push_back(temp);
     }
     sort(list.begin(),list.end());
-    //for (int i=0;i<list.size();i++){
-    //    cout<<list[i]<<endl;
-    // }
     current2=K-1;
     current1=0;
     int best2=current2;
@@ -35,8 +32,6 @@ int main() {
         current2++;
         current1++;
     }
-    //cout<<current1<<" "<<current2<<endl;
-    //cout<<list[current1]<<" "<<list[current2]<<endl;
     cout << best << "\n";
     return 0;
 }
