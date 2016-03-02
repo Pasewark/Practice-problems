@@ -10,7 +10,6 @@ def sv():
 def pl(n):
     j=0
     while primes[j]<=n:
-        #print primes[j]
         j+=1
     return j
 
