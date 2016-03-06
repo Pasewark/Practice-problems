@@ -50,7 +50,6 @@ def sol(n,k):
     return sorted(sols)
 N,K=map(int,raw_input().split())
 sls=sol(N,K)
-#l=len(str(N))
 for i in sls:
     s=str(i)
     l=len(str(i))/K
