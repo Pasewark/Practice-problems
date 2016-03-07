@@ -15,7 +15,6 @@ def sol(n,l):
             while i**2+a*i+b in l:
                 i+=1
             if i>c:
-                #print a,b
                 c=i
                 ba=a
                 bb=b
