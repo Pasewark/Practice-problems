@@ -16,9 +16,7 @@ def sol(n):
     if n==0: return 0
     current=sol2(n)
     p=decimal.Decimal(10**(n-1))
-    #print fib(current),p
     while fib(current)>p:
-        #print fib(current),p
         current-=1
     return current+1
     
