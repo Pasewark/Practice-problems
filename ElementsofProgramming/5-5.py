@@ -8,5 +8,3 @@ def powerSet(s):
         if len(output)==0: print '{emptyset}'
         else: print ",".join(map(str,output))
         num+=1
-
-powerSet([1,2,3,4])
