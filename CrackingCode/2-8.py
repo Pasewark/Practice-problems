@@ -12,7 +12,7 @@ def loop(l):
     nodes=set()
     current=l
     while current!=None:
-        if current in nodes: return True
+        if current in nodes: return current
         nodes.add(current)
         current=current.nxt
     return False
