@@ -5,4 +5,4 @@ def solve(n):
     solutions[2]=4
     for i in range(3,n):
         solutions[i]=solutions[i-1]+solutions[i-2]+solutions[i-3]
-    print solutions[-1]
+    return solutions[-1]
